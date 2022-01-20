@@ -1,0 +1,83 @@
+@media only screen and (max-width:687.99px){
+    html{
+        font-size: 8px;
+    }
+    section{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+    }
+    #header{
+        position: relative;
+    }
+    #header .main-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 0px 5%;
+        background:var(--bgColor);
+    }
+    #header .main-menu{
+        display: none;
+    }
+    #header .main-menu ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    #header .main-menu ul li{
+        padding: 0;
+        display: block;
+        width: 100%;
+        margin: 1px 0px;
+    }
+    #header .main-menu ul li a{
+        padding: 10px 0px;
+        display: block;
+        background: var(--btnColor);
+        color: white;
+        text-align: center;
+    }
+    #header .logo img {
+        width: 180px;
+    }
+    #hero-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    #hero-section .hero-infromation{
+        order: 2;
+    }
+    #hero-section .hero-infromation .headline {
+        font-size: 50px;
+        line-height: 50px;
+        color: #FABE4C;
+    }
+    #hero-section .hero-image{
+        order: 1;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .card-container .card .card-title {
+        font-size: 2.4rem;
+    }
+    #service-section {
+        grid-template-columns:1fr;
+    }
+    #service-section .service-left{
+        order: 2;
+    }
+    #service-section .service-right{
+        order: 1;
+    }
+    #service-section .service-left .service-card{
+        flex-direction: column;
+    }
+    #service-section .service-left .service-card .service-text{
+        text-align: center;
+    }
+}

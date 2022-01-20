@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>HOME | fashion.com.bd</title>
 </head>
 
@@ -13,7 +14,7 @@
     <!-- HEADER SECTION START FROM HERE -->
     <header id="header">
         <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
-        <nav class="main-menu">
+        <nav class="main-menu ">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
@@ -21,6 +22,11 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
+        <div class="nav-bar">
+            <div class="nav-stick"></div>
+            <div class="nav-stick"></div>
+            <div class="nav-stick"></div>
+        </div>
     </header>
     <!-- HEADER SECTION END HERE -->
     <!-- MAIN SECTION START FROM HERE -->
@@ -125,7 +131,7 @@
                     <img src="images/box.png" alt="House  Image">
                 </div>
                 <div class="service-text">
-                    <h2 class="service-title">Find the Perfect Fit</h2>
+                    <h2 class="service-title">Free Exchanges</h2>
                     <p class="paragraph">Everybody is different, which is why we
                         offer styles for every body.</p>
                 </div>
@@ -135,7 +141,7 @@
                     <img src="images/question.png" alt="House  Image">
                 </div>
                 <div class="service-text">
-                    <h2 class="service-title">Find the Perfect Fit</h2>
+                    <h2 class="service-title">Contact Our Seller</h2>
                     <p class="paragraph">Everybody is different, which is why we
                         offer styles for every body.</p>
                 </div>
@@ -148,6 +154,14 @@
     <!-- SERCIVE SECTION END HERE -->
     </main>
     <!-- MAIN SECTION END HERE -->
+    <script>
+        var navBar = document.querySelector('.nav-bar');
+        var mainMenu = document.querySelector('.main-menu');
+        navBar.addEventListener('click',function(){
+            navBar.classList.toggle('color');
+            mainMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
