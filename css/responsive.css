@@ -50,6 +50,7 @@
     }
     #hero-section .hero-infromation{
         order: 2;
+        text-align: center;
     }
     #hero-section .hero-infromation .headline {
         font-size: 50px;
