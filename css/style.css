@@ -154,7 +154,8 @@ section {
 
 /* HERO SECTION END HERE */
 /* PRODUCT SECTION START FROM HERE */
-#product-women,#product-man{
+#product-women,
+#product-man {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,3 +211,45 @@ section {
 }
 
 /* PRODUCT SECTION END HERE */
+/* SERVICE SECTION START FROM HERE */
+#service-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 50px 5%;
+}
+
+#service-section .service-left .service-card {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#service-section .service-left .service-card .service-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+#service-section .service-left .service-card .service-image img {
+    width: 78px;
+}
+
+#service-section .service-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-section .service-right img {
+    width: 100%;
+}
+
+/* SERVICE SECTION END HERE */
