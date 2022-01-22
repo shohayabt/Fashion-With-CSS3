@@ -275,3 +275,18 @@ section {
 }
 
 /* SERVICE SECTION END HERE */
+/* FOOTER SECTION START FROM HERE */
+#footer-section{
+    padding: 20px 0px;
+    text-align: center;
+    background: var(--bgColor);
+}
+#footer-section>p{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#footer-section>p .copy{
+    font-size: 18px;
+    font-weight: 700;
+}
+/* FOOTER SECTION END HERE */
