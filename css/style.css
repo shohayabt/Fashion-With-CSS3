@@ -93,7 +93,9 @@ section {
     --btnColor: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     ;
 }
-
+.d-block{
+    display: block;
+}
 /* COMMON CSS END HERE  */
 /* HEADER SECTION START FROM HERE */
 #header {
